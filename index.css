@@ -1,0 +1,119 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1px;
+  position: relative;
+  width: 360px;
+  margin: 0 auto;
+  background: #352a2a;
+  overflow: hidden;
+}
+.group {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 34px;
+  position: relative;
+  min-width: 0;
+  height: 57px;
+  padding: 16px 22px 17px 22px;
+  background: #371aad;
+  overflow: hidden;
+}
+.pic {
+  flex-shrink: 0;
+  position: relative;
+  width: 14px;
+  height: 12.833px;
+  background: url(./assets/images/ebc5f338-935b-48d6-aa94-ead4c9b9878c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.text {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 24px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: 0.15px;
+  z-index: 2;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 59px;
+  position: relative;
+  min-width: 0;
+  padding: 29px 47px 194px 46px;
+  z-index: 3;
+  overflow: hidden;
+}
+.pic-2 {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  height: 254px;
+  background: url(./assets/images/83720330-8699-47d5-8be8-e4c680ff4f36.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  overflow: hidden;
+}
+.text-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 267px;
+  height: 200px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  z-index: 5;
+}
